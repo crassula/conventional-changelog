@@ -24,7 +24,7 @@ You can also choose a preferred scheme for versioning:
 "plugins": {
   "@release-it/conventional-changelog": {
     "preset": "angular",
-    "scheme": "semver"
+    "versionScheme": "semver"
   }
 }
 
@@ -32,7 +32,7 @@ You can also choose a preferred scheme for versioning:
 "plugins": {
   "@release-it/conventional-changelog": {
     "preset": "angular",
-    "scheme": "calver",
+    "versionScheme": "calver",
     "versionFormat": "YY.MM.MICRO"
   }
 }
